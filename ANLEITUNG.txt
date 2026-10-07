@@ -1,0 +1,12 @@
+bf:gh Aufnahmeblatt - Installation auf dem iPhone
+
+1. Den gesamten Inhalt dieses Ordners (index.html, manifest.webmanifest, sw.js und den Ordner icons)
+   auf einen Webspace mit https hochladen (z.B. Firmenserver, GitHub Pages, Netlify).
+   Alle Dateien muessen im selben Ordner liegen.
+2. Die Adresse am iPhone in SAFARI oeffnen und einmal komplett laden lassen (mit Netz).
+3. Teilen-Symbol -> "Zum Home-Bildschirm" -> "Hinzufuegen".
+4. App ueber das Symbol auf dem Home-Bildschirm starten. Beim ersten Tippen auf
+   "GPS-Standort uebernehmen" den Standortzugriff erlauben.
+
+Ab dann startet die App auch ohne Netz. Projekte liegen auf dem Geraet.
+Hinweis: Wird eine neue Version hochgeladen, in sw.js die Zahl bei CACHE (v1 -> v2) erhoehen.
